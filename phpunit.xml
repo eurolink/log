@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         colors="true"
+         bootstrap="tests/bootstrap.php"
+>
+    <testsuites>
+        <testsuite name="Start">
+            <directory>./tests/</directory>
+        </testsuite>
+        <testsuite name="InProgress">
+            <directory>./tests/LoggerTest.php</directory>
+        </testsuite>
+        <testsuite name="Logger">
+            <directory>./tests/LoggerTest.php</directory>
+            <directory>./tests/LoggerPSR3ComplianceTest.php</directory>
+        </testsuite>
+        <testsuite name="Handler">
+            <directory>./tests/Handler/HandlerFileTest.php</directory>
+        </testsuite>
+        <testsuite name="Handler">
+            <directory>./tests/Processor/ProcessorMemoryTest.php</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
