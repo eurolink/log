@@ -10,4 +10,4 @@
 
 require __DIR__.'/src/Autoloader.php';
 
-Unit6\Log\Autoloader::register();
+Eurolink\Log\Autoloader::register();

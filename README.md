@@ -3,7 +3,7 @@
 A simple [PSR-3 compliant](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md) logging class for PHP.
 
 ```php
-use Unit6\Log\Logger;
+use Eurolink\Log\Logger;
 
 $path = __DIR__ . '/logs';
 $logger = new Logger($path);
